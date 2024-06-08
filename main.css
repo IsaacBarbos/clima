@@ -1,0 +1,28 @@
+
+.dados{
+    display: flex;
+    max-width: 960px;
+    background-color: rgba(166, 185, 207, 0.856);
+    margin: 40px auto;
+    border: 1px  snow;
+    box-shadow: 8px 8px 40px snow ;
+}
+
+.condicao , .local-atual{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.temperatura{
+    font-size: 48px;
+}
+
+.cidade{
+    font-size: 32px;
+}
+.hideload{
+    display: none;
+}
